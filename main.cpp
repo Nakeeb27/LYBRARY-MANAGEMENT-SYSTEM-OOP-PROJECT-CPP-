@@ -1,7 +1,5 @@
 ///A project By------
-///Nazmun Nahar Moon(2109057)
-///Anwesha Islam(2109053)
-///Rayan Anwar(2109045)
+///Muntasir Billah Nakeeb(2109016)
 
 #include<fstream>
 #include "conio.h"
@@ -458,7 +456,7 @@ void book_deposit()
 	char sn[6],bn[6];
 	int found=0, flag=0, day, fine;
 	cout<<"\n\nBOOK DEPOSIT ...";
-	cout<<"\n\n\tEnter The student’s admission no.";
+	cout<<"\n\n\tEnter The studentÂ’s admission no.";
 	cin>>sn;
 	fp.open("student.txt",ios::in|ios::out);
 	fp1.open("book.txt",ios::in|ios::out);
